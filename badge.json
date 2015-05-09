@@ -1,0 +1,7 @@
+{
+    "name": "Test Badge",
+    "description": "Demonstrates the ability to create and award a badge",
+    "image": "http://davious.github.io/badge101/badge.png",
+    "criteria": "http://davious.github.io/badge101/badge-criteria.html",
+    "issuer": "http://davious.github.io/badge101/issuer.json"
+}

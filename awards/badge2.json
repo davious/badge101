@@ -1,0 +1,15 @@
+{
+  "uid": "5a315d44-4404-4c9f-b10c-b67f9ad50120",
+  "recipient": {
+    "type": "email",
+    "identity": "mymozillabackpackemail@gmail.com",
+    "hashed": false
+  },
+  "issuedOn": "2015-05-09T23:02:51.355Z",
+  "expires": "2017-05-09T23:02:51.355Z",
+  "badge": "http://davious.github.io/badge101/badge.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://davious.github.io/badge101/awards/badge2.json"
+  }
+}
