@@ -18,9 +18,10 @@ else
 assertion = JSON.parse assertion
 
 email = assertion.recipient.identity
-shaEmail = crypto.createHash('sha256').update(email).digest('hex')
+shaEmail = crypto.createHash('sha256' + 'salt').update(email).digest('hex')
 assertion.recipient.identity = 'sha256$' + shaEmail
 assertion.recipient.hashed = true
+assertion.recipient.salt = "salt"
 assertion.verify.url = assertion.verify.url.replace(".json", ".hashed.json")
 fs.writeFileSync "#{badgePath}.hashed.json", JSON.stringify(assertion, null, '\t')
 

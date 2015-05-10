@@ -5,8 +5,10 @@
     "identity": "mymozillabackpackemail@gmail.com",
     "hashed": false
   },
-  "issuedOn": "2015-05-09T22:45:45.953Z",
+  "issuedOn": "2015-05-09",
+  "expires": "2017-05-09",
   "badge": "http://davious.github.io/badge101/badge.json",
+  "evidence": "https://davious.github.io/badge101/awards/badge-evidence.html",
   "verify": {
     "type": "hosted",
     "url": "http://davious.github.io/badge101/awards/badge1.json"

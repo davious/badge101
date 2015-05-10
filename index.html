@@ -1,3 +1,41 @@
 <html>
-<body>Test</body>
+<head>
+  <title>Badge 101: Home</title>
+</head>
+<body>
+<h1>Welcome to Badge 101</h1>
+
+<h2>Files</h2>
+<h3>JSON files</h3>
+<dl>
+  <dt><a href="issuer.json">Issuer</a></dt>
+  <dd>Who issued the badge: name, description, image, url, email, revocationList (for signed badges)</dd>
+  <dt><a href="badge.json">Badge Class</a></dt>
+  <dd>The kind of badge: name, description, image, tags, criteria (url), issuer (json url), alignment (list w name, description, url)</dd>
+  <dt><a href="awards/badge1.json">Assertion</a></dt>
+  <dd>Awarded Badge: uid, recipient email (can be hashed), image (with this very own info baked in it), evidence (url), issuedOn, expires, badge (json url), verify (hosted: url to self! or signed: url to public key)</dd>
+  <dt><a href="revocationList.json">Revocation List</a></dt>
+  <dd>For signed assertions only: hash of the signed keys of revoked assertions with explanation</dd>
+</dl>
+
+<h3>HTML files</h3>
+<dl>
+  <dt><a href="badge-criteria.html">Badge Criteria</a></dt>
+  <dd>A page dedicated to describing the badge</dd>
+  <dt><a href="issuer.html">Issuer</a></dt>
+  <dd>Organization page (external)</dd>
+  <dt><a href="alignment.html">Alignment</a></dt>
+  <dd>Program description referenced in the Badge Class (external)</dd>
+</dl>
+
+<h3>PNG files</h3>
+<dl>
+  <dt><img src="badge.png" /></dt>
+  <dd>The original badge image</dd>
+  <dt><img src="awards/badge1.png" /></dt>
+  <dd>The badge image with an assertion baked into it</dd>
+  <dt><img src="issuer.png" /></dt>
+  <dd>Issuer logo</dd>
+</dl>
+</body>
 </html>

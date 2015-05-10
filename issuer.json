@@ -1,4 +1,8 @@
 {
-    "name": "Issuer",
-    "url": "http://davious.github.io/badge101/"
+  "name": "Issuer",
+  "description": "An issuer",
+  "url": "http://davious.github.io/badge101/issuer.html",
+  "image": "http://davious.github.io/badge101/issuer.png",
+  "email": "issuer@example.org",
+  "revocationList": "http://davious.github.io/badge101/revocationList.json"
 }

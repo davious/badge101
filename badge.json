@@ -2,6 +2,13 @@
     "name": "Test Badge",
     "description": "Demonstrates the ability to create and award a badge",
     "image": "http://davious.github.io/badge101/badge.png",
+    "tags": ["badge", "example", "test"],
     "criteria": "http://davious.github.io/badge101/badge-criteria.html",
+    "alignment": [
+      { "name": "Alignment",
+        "url": "http://davious.github.io/badge101/alignment.html",
+        "description": "A program external this badge fulfills."
+      }
+    ],
     "issuer": "http://davious.github.io/badge101/issuer.json"
 }
